@@ -1,0 +1,40 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    h1 {
+      color: var(--highlight);
+    }
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+}
